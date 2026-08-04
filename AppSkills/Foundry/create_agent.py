@@ -169,8 +169,11 @@ with project_client:
 
         # TODO 2.5 Test the user input.
         user_input = (
-            "From the Wikipedia article 'Linux kernel version history', "
-            "list the release dates of major 6.x stable kernel versions."
+            "From the Wikipedia article 'Linux kernel version history', list the "
+            "release dates of major 6.x stable kernel versions (6.0, 6.1..., up to "
+            "the latest). Then compute: total count, average days between "
+            "consecutive releases, and longest gap. Return a short, sorted table "
+            "and the three metrics, with the source URL cited. Be concise."
         )
 
         openai_client = project_client.get_openai_client()
