@@ -48,4 +48,20 @@ Azure AI Search
 
 Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyjesz innych słów.
 
+### Deployment type
+
+| Deployment type       | Kiedy się wybiera                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------|
+| **Global Standard**   | Najczęściej wybierany w case studies. Daje najwyższą dostępność, najlepszą cenę i największą quota. Ruch jest routowany globalnie. |
+| **Standard**          | Tylko gdy jest wymaganie data residency w konkretnym regionie.                    |
+| **Global Provisioned**| Gdy jest wyraźne wymaganie stałej, przewidywalnej wydajności (PTU) i niskiej latencji przy dużym obciążeniu. |
+
+### Version update policy
+
+| Version update policy                              | Kiedy się wybiera                                                                 |
+|----------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Opt out of automatic model version upgrades**    | Najczęstsze w produkcji/agentach – chcesz mieć pełną kontrolę i unikać niespodziewanych zmian zachowania modelu. |
+| **Once the current version expires**               | Automatyczna aktualizacja dopiero przy wycofaniu wersji.                          |
+| **Upgrade once a new default version becomes available** | Automatyczne aktualizacje – rzadko wybierane przy agentach produkcyjnych.     |
+
 
