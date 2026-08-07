@@ -45,3 +45,7 @@ Azure AI Search
 | **Vector search**   | Szuka podobieństwa znaczeniowego (embeddingi) | Najlepsze do semantyki          |
 | **Semantic ranking**| Dodatkowo przestawia wyniki według znaczenia | Poprawia jakość top wyników     |
 | **Hybrid search**   | Łączy keyword + vector                      | Najczęściej używane w RAG       |
+
+Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyjesz innych słów.
+
+
