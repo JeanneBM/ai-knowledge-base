@@ -20,3 +20,8 @@ search indexer
 | **Azure AI Foundry**                     | Nowoczesne modele (Florence, GPT-4o Vision, własne)   | Najnowsze rozwiązania                     |
 | **Azure Video Analyzer / Media Services**| Analiza strumienia wideo w czasie rzeczywistym        | Większe instalacje                        |
 | **Azure IoT Edge + AI**                  | Uruchamianie modelu lokalnie (Edge)                   | Obowiązkowe na budowie (niska latencja)   |
+
+Temperatura skaluje cały rozkład prawdopodobieństwa (im wyższa, tym więcej losowości), a top-p dynamicznie ucina go do najmniejszego zbioru tokenów, których skumulowane prawdopodobieństwo ≥ p.
+
+Embedding (wektor osadzenia) to gęsta reprezentacja numeryczna (wektor liczb) obiektu — słowa, zdania, obrazu, użytkownika itp. — w przestrzeni o stałej wymiarowości, w której podobne obiekty leżą blisko siebie.
+
