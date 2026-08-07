@@ -35,3 +35,13 @@ Groundedness measures how well the model's responses are supported by the retrie
 | **Relevance**    | Czy odpowiedź jest relevantna do pytania użytkownika | Agent może dać bardzo relevantną, ale zmyśloną odpowiedź  |
 | **Coherence**    | Czy odpowiedź jest logiczna i spójna wewnętrznie | Halucynacja może być idealnie spójna                       |
 | **Fluency**      | Czy język jest naturalny i płynny              | Halucynacje często brzmią bardzo płynnie                   |
+
+Azure AI Search
+
+
+| Rodzaj              | Co robi                                      | Kiedy używać                     |
+|---------------------|----------------------------------------------|----------------------------------|
+| **Keyword / Full-text** | Szuka dokładnych słów                       | Precyzyjne frazy, kody, ID      |
+| **Vector search**   | Szuka podobieństwa znaczeniowego (embeddingi) | Najlepsze do semantyki          |
+| **Semantic ranking**| Dodatkowo przestawia wyniki według znaczenia | Poprawia jakość top wyników     |
+| **Hybrid search**   | Łączy keyword + vector                      | Najczęściej używane w RAG       |
