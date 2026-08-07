@@ -27,3 +27,11 @@ Embedding (wektor osadzenia) to gęsta reprezentacja numeryczna (wektor liczb) o
 
 Groundedness measures how well the model's responses are supported by the retrieved context/documents, directly identifying hallucinations.
 
+„Retrieved” oznacza pobranie istniejącego obiektu, a nie tworzenie.
+
+| Metryka          | Co mierzy                                      | Dlaczego nie wykrywa halucynacji?                          |
+|------------------|------------------------------------------------|------------------------------------------------------------|
+| **Groundedness** | Czy odpowiedź jest oparta na dostarczonym kontekście (dokumentach) | To jedyna metryka, która bezpośrednio mierzy halucynacje |
+| **Relevance**    | Czy odpowiedź jest relevantna do pytania użytkownika | Agent może dać bardzo relevantną, ale zmyśloną odpowiedź  |
+| **Coherence**    | Czy odpowiedź jest logiczna i spójna wewnętrznie | Halucynacja może być idealnie spójna                       |
+| **Fluency**      | Czy język jest naturalny i płynny              | Halucynacje często brzmią bardzo płynnie                   |
