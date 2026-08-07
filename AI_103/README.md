@@ -81,3 +81,14 @@ Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyje
 | **Lepsze keyword search**  | Ułatwia klasyczne wyszukiwanie po ważnych pojęciach                  |
 | **Podsumowania / nawigacja**| Szybki przegląd o czym jest dokument                                 |
 | **Filtry i facety**        | Można budować filtry po kluczowych frazach                           |
+
+| Skill                        | Co robi                                      | Kiedy używać                          |
+|-----------------------------|----------------------------------------------|---------------------------------------|
+| **Text Split**              | Dzieli długi tekst na mniejsze fragmenty (chunki) | Zawsze przy RAG / vector search      |
+| **Azure OpenAI Embedding**  | Tworzy wektory (embeddingi) z tekstu         | Vector search / semantic search      |
+| **OCR**                     | Odczytuje tekst z obrazów i skanów           | Gdy masz PDF-y ze skanami            |
+| **Key Phrase Extraction**   | Wyciąga najważniejsze frazy                  | Tagowanie, lepsze keyword search     |
+| **Language Detection**      | Wykrywa język tekstu                         | Wielojęzyczne dokumenty              |
+| **Entity Recognition**      | Wyciąga osoby, miejsca, organizacje itd.     | Filtrowanie po encjach               |
+| **Merge**                   | Łączy tekst z OCR + oryginalny tekst         | Po OCR                               |
+| **Sentiment**               | Analizuje nastrój tekstu                     | Analiza opinii                       |
