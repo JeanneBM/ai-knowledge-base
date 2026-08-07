@@ -64,4 +64,20 @@ Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyje
 | **Once the current version expires**               | Automatyczna aktualizacja dopiero przy wycofaniu wersji.                          |
 | **Upgrade once a new default version becomes available** | Automatyczne aktualizacje – rzadko wybierane przy agentach produkcyjnych.     |
 
+| Skill                      | Rola                                      |
+|----------------------------|-----------------------------------------------------------|
+| **Language Detection**     | Tylko wykrywa język                                       |
+| **Entity Recognition**     | Wyciąga encje (osoby, miejsca, organizacje itd.)          |
+| **Merge**                  | Łączy wyniki OCR z tekstem dokumentu                      |
+| **Azure OpenAI Embedding** | **Tworzy wektory (embeddingi)** – potrzebne do vector search |
+| **Text Split**             | **Dzieli tekst na chunki** – niezbędne przed embeddingiem |
+| **key phrase extraction**  | Wyciąga kluczowe frazy z tekstu                           |,
 
+**key phrase extraction*
+| Zastosowanie               | Opis                                                                 |
+|----------------------------|----------------------------------------------------------------------|
+| **Wzbogacanie indeksu**    | Dodaje pole z kluczowymi frazami, które można potem wyszukiwać lub filtrować |
+| **Tagowanie dokumentów**   | Automatyczne tagi do dokumentów                                      |
+| **Lepsze keyword search**  | Ułatwia klasyczne wyszukiwanie po ważnych pojęciach                  |
+| **Podsumowania / nawigacja**| Szybki przegląd o czym jest dokument                                 |
+| **Filtry i facety**        | Można budować filtry po kluczowych frazach                           |
