@@ -25,3 +25,5 @@ Temperatura skaluje cały rozkład prawdopodobieństwa (im wyższa, tym więcej 
 
 Embedding (wektor osadzenia) to gęsta reprezentacja numeryczna (wektor liczb) obiektu — słowa, zdania, obrazu, użytkownika itp. — w przestrzeni o stałej wymiarowości, w której podobne obiekty leżą blisko siebie.
 
+Groundedness measures how well the model's responses are supported by the retrieved context/documents, directly identifying hallucinations.
+
