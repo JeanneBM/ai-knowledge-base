@@ -93,6 +93,7 @@ Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyje
 | **Merge**                   | Łączy tekst z OCR + oryginalny tekst         | Po OCR                               |
 | **Sentiment**               | Analizuje nastrój tekstu                     | Analiza opinii                       |
 
+Azure Content Understanding 
 | Analizator | Główne zastosowanie |
 |---|---|
 | `prebuilt-layout` | Wyodrębnianie tekstu, tabel, struktury, układu dokumentu i kodów QR |
