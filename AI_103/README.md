@@ -92,3 +92,11 @@ Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyje
 | **Entity Recognition**      | Wyciąga osoby, miejsca, organizacje itd.     | Filtrowanie po encjach               |
 | **Merge**                   | Łączy tekst z OCR + oryginalny tekst         | Po OCR                               |
 | **Sentiment**               | Analizuje nastrój tekstu                     | Analiza opinii                       |
+
+| Analizator | Główne zastosowanie |
+|---|---|
+| `prebuilt-layout` | Wyodrębnianie tekstu, tabel, struktury, układu dokumentu i kodów QR |
+| `prebuilt-documentFieldSchema` | Rozpoznawanie i proponowanie schematu pól dokumentu |
+| `prebuilt-read` | Podstawowe odczytywanie tekstu za pomocą OCR |
+| `prebuilt-documentSearch` | Przygotowywanie dokumentów do wyszukiwania semantycznego i RAG |
+
