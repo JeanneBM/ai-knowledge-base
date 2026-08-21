@@ -107,6 +107,5 @@ Azure Content Understanding
 - **User** = **korzysta** z usługi.
 - **Reader** = tylko **ogląda konfigurację**.
 
-
-- **Kod aplikacji** → .services.ai.azure.com
-- **Portal w przeglądarce** → .ai.azure.com
+|  **Kod aplikacji** → .services.ai.azure.com |
+|  **Portal w przeglądarce** → .ai.azure.com |
