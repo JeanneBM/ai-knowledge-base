@@ -59,6 +59,13 @@ Semantic search szuka znaczenia — rozumie, o co Ci chodzi, nawet jeśli użyje
 | **Standard**          | Tylko gdy jest wymaganie data residency w konkretnym regionie.                    |
 | **Global Provisioned**| Gdy jest wyraźne wymaganie stałej, przewidywalnej wydajności (PTU) i niskiej latencji przy dużym obciążeniu. |
 
+| Typ wdrożenia          | Co robi                                      | Koszt          | Czas realizacji | Gdzie przetwarzane |
+|------------------------|----------------------------------------------|----------------|-----------------|--------------------|
+| **Global Standard**    | Normalne, online zapytania                   | Normalny       | Natychmiast     | Dowolny region     |
+| **Global Batch**       | Duże pliki z wieloma requestami              | ~50% taniej    | do 24 h         | Dowolny region     |
+| **Data Zone Standard** | Online + kontrola strefy danych (EU/US)      | Normalny       | Natychmiast     | Tylko w strefie    |
+| **Data Zone Batch**    | Batch + kontrola strefy danych               | ~50% taniej    | do 24 h         | Tylko w strefie    |
+
 ### Version update policy
 
 | Version update policy                              | Kiedy się wybiera                                                                 |
@@ -109,6 +116,8 @@ Azure Content Understanding
 - **Contributor** = zarządza zasobami, ale **nie ludźmi i dostępem**.
 - **User** = **korzysta** z usługi.
 - **Reader** = tylko **ogląda konfigurację**.
+
+
 
 |  **Kod aplikacji** → .services.ai.azure.com |
 |  **Portal w przeglądarce** → .ai.azure.com |
