@@ -2,6 +2,8 @@
 Szybka reguła
 Top P → "Jak model wybiera następne słowo?"
 Vector Search → "Jak system znajduje najlepszy dokument?"
+Większe k może zwiększyć szansę znalezienia istotnych informacji, ale może też zwiększyć czas, koszt przetwarzania i liczbę mniej trafnych wyników.
+k = liczba najbliższych sąsiadów (k-nearest neighbors) zwracanych przez wyszukiwanie wektorowe.
 ```
 search indexer
 
