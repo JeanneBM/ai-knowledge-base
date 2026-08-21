@@ -120,6 +120,7 @@ Azure Content Understanding
 Sora 2    - 4 / 8 / 12 sekund
 
 
+„Chcę sprawdzać na obrazie z kamer, czy pracownicy mają kaski” → Computer Vision.
 
 |  **Kod aplikacji** → .services.ai.azure.com |
 |  **Portal w przeglądarce** → .ai.azure.com |
