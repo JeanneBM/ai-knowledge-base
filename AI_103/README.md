@@ -101,3 +101,5 @@ Azure Content Understanding
 | `prebuilt-read` | Podstawowe odczytywanie tekstu za pomocą OCR |
 | `prebuilt-documentSearch` | Przygotowywanie dokumentów do wyszukiwania semantycznego i RAG |
 
+Kod aplikacji → .services.ai.azure.com
+Portal w przeglądarce → .ai.azure.com
