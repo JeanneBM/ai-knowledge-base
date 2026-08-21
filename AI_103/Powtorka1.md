@@ -231,4 +231,3 @@ Uważaj na odpowiedzi zawierające słowa:
 
 W zagadnieniach dotyczących AI takie absolutne stwierdzenia są zazwyczaj nieprawdziwe.
 
-> **Uwaga:** w przesłanym materiale nie było pytania 13; pytanie 10 pojawiło się dwukrotnie.
