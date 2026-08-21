@@ -117,6 +117,8 @@ Azure Content Understanding
 - **User** = **korzysta** z usługi.
 - **Reader** = tylko **ogląda konfigurację**.
 
+Sora 2    - 4 / 8 / 12 sekund
+
 
 
 |  **Kod aplikacji** → .services.ai.azure.com |
