@@ -36,6 +36,9 @@ Groundedness measures how well the model's responses are supported by the retrie
 | **Coherence**    | Czy odpowiedź jest logiczna i spójna wewnętrznie | Halucynacja może być idealnie spójna                       |
 | **Fluency**      | Czy język jest naturalny i płynny              | Halucynacje często brzmią bardzo płynnie                   |
 
+- Retrieval relevance: czy system przyniósł właściwą książkę?
+- Groundedness: czy odpowiedź rzeczywiście pochodzi z tej książki?
+
 Azure AI Search
 
 
