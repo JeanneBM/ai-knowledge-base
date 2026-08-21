@@ -101,5 +101,12 @@ Azure Content Understanding
 | `prebuilt-read` | Podstawowe odczytywanie tekstu za pomocą OCR |
 | `prebuilt-documentSearch` | Przygotowywanie dokumentów do wyszukiwania semantycznego i RAG |
 
-Kod aplikacji → .services.ai.azure.com
-Portal w przeglądarce → .ai.azure.com
+
+- **Owner** = zarządza zasobami **i ludźmi**.
+- **Contributor** = zarządza zasobami, ale **nie ludźmi i dostępem**.
+- **User** = **korzysta** z usługi.
+- **Reader** = tylko **ogląda konfigurację**.
+
+
+- **Kod aplikacji** → .services.ai.azure.com
+- **Portal w przeglądarce** → .ai.azure.com
